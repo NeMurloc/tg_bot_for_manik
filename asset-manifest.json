@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/tg_bot_for_manik/static/css/main.31d6cfe0.css",
-    "main.js": "/tg_bot_for_manik/static/js/main.fdd57a00.js",
+    "main.js": "/tg_bot_for_manik/static/js/main.3880aa1a.js",
     "index.html": "/tg_bot_for_manik/index.html",
-    "main.fdd57a00.js.map": "/tg_bot_for_manik/static/js/main.fdd57a00.js.map"
+    "main.3880aa1a.js.map": "/tg_bot_for_manik/static/js/main.3880aa1a.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.fdd57a00.js"
+    "static/js/main.3880aa1a.js"
   ]
 }
