@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/tg_bot_for_manik/static/css/main.6d4cef2f.css",
-    "main.js": "/tg_bot_for_manik/static/js/main.93785ff8.js",
+    "main.css": "/tg_bot_for_manik/static/css/main.4da23af6.css",
+    "main.js": "/tg_bot_for_manik/static/js/main.c2ce8bc3.js",
+    "static/media/SF-Pro-Text-Bold.otf": "/tg_bot_for_manik/static/media/SF-Pro-Text-Bold.171e620e032b7e72ca9c.otf",
     "index.html": "/tg_bot_for_manik/index.html",
-    "main.6d4cef2f.css.map": "/tg_bot_for_manik/static/css/main.6d4cef2f.css.map",
-    "main.93785ff8.js.map": "/tg_bot_for_manik/static/js/main.93785ff8.js.map"
+    "main.4da23af6.css.map": "/tg_bot_for_manik/static/css/main.4da23af6.css.map",
+    "main.c2ce8bc3.js.map": "/tg_bot_for_manik/static/js/main.c2ce8bc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d4cef2f.css",
-    "static/js/main.93785ff8.js"
+    "static/css/main.4da23af6.css",
+    "static/js/main.c2ce8bc3.js"
   ]
 }
