@@ -1,8 +1,9 @@
 import React from "react";
 import data from "../../Services.json";
-import { Footnote } from "../../textStyles/TextStyleComponents";
+import { Footnote, HeadlineBody, Subheadline1 } from "../../textStyles/TextStyleComponents";
 import ServicesList from "../list/ServicesList";
 import cl from "./ServicesBlocks.module.css";
+import clForLastChild from "../list/ServicesList.module.css";
 
 const ServicesBlocks = () => {
     // ЗАГРУЗКА ДАННЫХ С JSON С СЕРВЕРА
@@ -18,13 +19,14 @@ const ServicesBlocks = () => {
 
     return (
         <div>
-            {data.map((block, index) => (
+            {data.map(block => (
                 <div key={block.category} className={cl.block}>
                     <Footnote className={cl.blockName}>{block.category}</Footnote>
 
                     <div className={cl.list}>
-                        {block.items.map((elem, idx) => (
-                            <div key={elem.id}>
+                        {block.items.map(elem => (
+                            <div key={elem.id} className={clForLastChild.containerForLastChild}>
+
                                 <ServicesList
                                     services={{
                                         id: elem.id,
@@ -32,9 +34,9 @@ const ServicesBlocks = () => {
                                         price: elem.price,
                                         time: elem.time,
                                         info: elem.info
-                                    }}
-                                    isLast={idx === block.items.length - 1}
+                                    }}    
                                 />
+
                             </div>
                         ))}
                     </div>

@@ -3,13 +3,14 @@ import { HeadlineBody, Subheadline1 } from "../../textStyles/TextStyleComponents
 import cl from "./ServicesList.module.css";
 
 
-const ServicesList = ({ services, isLast }) => {
+const ServicesList = ({ services }) => {
     return (
         <div>
             <label htmlFor={services.id}>
                 <div className={cl.elem}>
-                    <input type="checkbox" id={services.id} className={cl.chbx}></input>
-                    <div className={`${cl.textbtndiv} ${isLast ? cl.lastItem : ''}`}>
+                    <input type="checkbox" id={services.id} className={cl.chbx}/>
+
+                    <div className={cl.textbtndiv}>
                         <div className={cl.text}>
                             {/* <HeadlineBody className={cl.hdlnbd}>Для одной строки есть специальное свойство text-overflow со значением ellipsis, которое добавляет многоточие в конце текста. Чтобы это свойство работало, нужно соблюсти ещё два условия.</HeadlineBody> */}
                             <HeadlineBody className={cl.hdlnbd}>{services.name}</HeadlineBody>
