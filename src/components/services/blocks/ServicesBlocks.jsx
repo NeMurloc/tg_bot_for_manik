@@ -1,6 +1,6 @@
 import React from "react";
-import data from "../../Services.json";
-import { Footnote, HeadlineBody, Subheadline1 } from "../../textStyles/TextStyleComponents";
+import data from "../../../Services.json";
+import { Footnote, HeadlineBody, Subheadline1 } from "../../../textStyles/TextStyleComponents";
 import ServicesList from "../list/ServicesList";
 import cl from "./ServicesBlocks.module.css";
 import clForLastChild from "../list/ServicesList.module.css";
