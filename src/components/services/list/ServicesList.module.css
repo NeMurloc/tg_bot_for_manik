@@ -38,7 +38,6 @@
     width: 24px;
     height: 24px;
     border: 1.5px solid var(--tg-theme-hint-color);
-    border: 1.5px solid gray;
     border-radius: 50%;
 }
 
