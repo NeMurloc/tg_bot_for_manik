@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tg_bot_for_manik/static/css/main.215c94da.css",
-    "main.js": "/tg_bot_for_manik/static/js/main.87f99900.js",
+    "main.css": "/tg_bot_for_manik/static/css/main.be23a378.css",
+    "main.js": "/tg_bot_for_manik/static/js/main.81f6f66c.js",
     "static/media/SF-Pro-Rounded-Semibold.otf": "/tg_bot_for_manik/static/media/SF-Pro-Rounded-Semibold.cb1eeb24a6b1124f56ab.otf",
     "static/media/SF-Pro-Display-Semibold.otf": "/tg_bot_for_manik/static/media/SF-Pro-Display-Semibold.6099dd43659d57ccaab5.otf",
     "static/media/SF-Pro-Display-Bold.otf": "/tg_bot_for_manik/static/media/SF-Pro-Display-Bold.0edd1bada269d5887ee1.otf",
@@ -15,11 +15,11 @@
     "static/media/square.jpeg": "/tg_bot_for_manik/static/media/square.444c4753a5542ec2d951.jpeg",
     "static/media/gor.jpeg": "/tg_bot_for_manik/static/media/gor.a1c6b6693c1107368edd.jpeg",
     "index.html": "/tg_bot_for_manik/index.html",
-    "main.215c94da.css.map": "/tg_bot_for_manik/static/css/main.215c94da.css.map",
-    "main.87f99900.js.map": "/tg_bot_for_manik/static/js/main.87f99900.js.map"
+    "main.be23a378.css.map": "/tg_bot_for_manik/static/css/main.be23a378.css.map",
+    "main.81f6f66c.js.map": "/tg_bot_for_manik/static/js/main.81f6f66c.js.map"
   },
   "entrypoints": [
-    "static/css/main.215c94da.css",
-    "static/js/main.87f99900.js"
+    "static/css/main.be23a378.css",
+    "static/js/main.81f6f66c.js"
   ]
 }
